@@ -1,59 +1,24 @@
-# Blog
+# Futeblog
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+**Futeblog** é um blog dedicado ao mundo do futebol, onde você pode encontrar notícias, destaques de jogadores, times e campeonatos. O site foi desenvolvido com **Angular**, **TypeScript** e **CSS** para fornecer uma experiência moderna e interativa aos usuários. Este projeto está em andamento, com o objetivo de se aprofundar nas funcionalidades do **Angular** e explorar conceitos como **Web Components** e **SPA (Single Page Application)**.
 
-## Development server
+## Funcionalidades
 
-To start a local development server, run:
+- **Página inicial (Home)**: Exibe uma lista de artigos recentes sobre futebol, com destaque para os principais jogadores, times e jogos.
+- **Página de conteúdo (Content)**: Apresenta detalhes completos de cada artigo, com imagens, descrições e mais informações sobre o tema.
+- **Navegação simples**: O site oferece uma navegação clara e fluida entre as páginas utilizando o sistema de rotas do Angular.
+- **Design responsivo**: A interface foi projetada para ser amigável tanto em desktop quanto em dispositivos móveis.
 
-```bash
-ng serve
-```
+## Tecnologias Usadas
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Angular**: Framework para construção da SPA (Single Page Application).
+- **TypeScript**: Linguagem de programação utilizada para garantir tipos estáticos e melhor organização do código.
+- **CSS**: Estilização do layout, usando práticas modernas e design responsivo.
+- **Web Components**: Componentes reutilizáveis como `big-card`, `small-card`, `menu-bar` e `menu-title` para tornar o código modular e fácil de manter.
+- **Fake Data**: Uso de dados fictícios (dataFake) para simular conteúdo real de artigos e notícias.
 
-## Code scaffolding
+## Em Andamento
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Este projeto está em constante evolução e busca explorar mais a fundo o **Angular**, especialmente com a criação de componentes modulares, otimização da navegação entre páginas e melhorias na interação do usuário. Fique à vontade para acompanhar o progresso e contribuir!
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
